@@ -1,0 +1,16 @@
+.navbar-nav > li{
+  padding-left:62px;
+  padding-right:62px;
+}
+
+header.masthead {
+  /* padding-top: 10.5rem;
+  padding-bottom: 6rem; */
+  text-align: center;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
