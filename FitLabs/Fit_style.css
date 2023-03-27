@@ -1,6 +1,6 @@
-.navbar-nav > li{
-  padding-left:62px;
-  padding-right:62px;
+.navbar-nav>li {
+  padding-left: 62px;
+  padding-right: 62px;
 }
 
 header.masthead {
@@ -10,6 +10,10 @@ header.masthead {
   color: #ffffff;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
+}
+
+.card {
+  margin:20px 40px;
 }
