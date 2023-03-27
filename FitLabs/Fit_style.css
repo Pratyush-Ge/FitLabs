@@ -14,6 +14,10 @@ header.masthead {
   background-size: cover;
 }
 
+.navbar {
+  height: 10vh;
+}
+
 .card {
-  margin:20px 40px;
+  margin: 20px 40px;
 }
