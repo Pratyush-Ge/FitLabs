@@ -6,95 +6,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="water_style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Water counter</title>
 </head>
 
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
     <header>
-    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="Fit_ind.html">
-                <img src="https://api.logo.com/api/v2/images?logo=logo_06e15eb7-d7f5-4655-a37e-cb969c6834cb&format=webp&margins=0&quality=60&width=500&background=transparent&u=1679415193"
-                    alt="" width="120" height="24">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="Fit_ind.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">BMI</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Health</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Log-in</a>
-                    </li>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="Fit_ind.html">
+                    <img src="https://api.logo.com/api/v2/images?logo=logo_06e15eb7-d7f5-4655-a37e-cb969c6834cb&format=webp&margins=0&quality=60&width=500&background=transparent&u=1679415193"
+                        alt="" width="120" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Fit_ind.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BMI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Health</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Log-in</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     </header>
     <main>
-    <div class="container">
-        <div class="img-container item">
-            <img src="img/water-tracker-item.jpg" class="water-lady" alt="Women_drinking_water">
-            <h1 class="h1">Daily Water Intake Calculator</h1>
-        </div>
-        <div class="form-container item">
-            <h2>Enter your data here</h2>
-            <div class="form">
-                <form action=""></form>
-                <label for="age">Age</label>
-                <input type="number" name="age" id="age">
-                <p>Gender</p>
-                <label for="male">Male</label>
-                <input type="radio" name="gender" id="male">
-                <label for="female">Female</label>
-                <input type="radio" name ="gender" id=" female">
-                <br>
-                <div class="height">
-                    <label for="height">Height</label>
-                    <input type="number" id="height">
-                </div>
-                <dvi class="weight">
-                <label for="weight">weight</label>
-                <input type="number" id="weight">
-                </dvi>
-                <div class="fgr row" id="rowactivity">
-                    <div class="col-5">
-                        <label for="activity" class="float-end fw-bold">Activity level</label>
-                    </div>
-                <div class="col-6">
-                    <select class="form-select" name="activity" id="activity">
-                        <option value="sedentary">Sedentary (little or no exercise)</option>
-                        <option value="light" selected="selected">Light (exercise 1-3 times a week)</option>
-                        <option value="moderate">Moderate (exercise 3-5 times a week)</option>
-                        <option value="high">High (heavy exercise 6-7 times a week)</option>
-                        <option value="extreme">Extreme (very heavy exercise or physical job)</option>
-                    </select>
-                    </div>
-                </div>
-                <button>
-                    Calculate
-                </button>
+        <div class="container">
+            <div class="img-container item">
+                <img src="img/water-tracker-item.jpg" class="water-pic" alt="Women_drinking_water">
+                <h1 id="head1-diz">Daily water intake calculator</h1>
+                <p id="p-diz">Use this hydration calculator to easily calculate your recommended daily water intake.</p>
             </div>
-        </div>
+            <div class="form-container item">
+                <div class="form-heading">
+                    <h2 id="head2-diz">Enter your data here</h2>
+                    <h4></h4>(Years,Meter,kg)</h4>
+                </div>
+                <div class="form">
+                    <form action=""></form>
+                    <div class="age form-item">
+                        <label for="age">Age</label>
+                        <input type="number" name="age" id="age">
+                    </div>
+                    <div class="gender form-item">
+                        <p class="gender">Gender</p>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="male">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id=" female">
+                    </div>
+                    <div class="height form-item">
+                        <label for="height">Height</label>
+                        <input type="number" id="height">
+                    </div>
+                    <div class="weight form-item">
+                        <label for="weight">Weight</label>
+                        <input type="number" id="weight">
+                    </div>
+                    <div class="fgr row form-item" id="rowactivity">
+                        <div class="col-5">
+                            <label for="activity" class="float-end fw-bold">Activity level</label>
+                        </div>
+                        <div class="col-6">
+                            <select class="form-select" name="activity" id="activity">
+                                <option value="sedentary">Sedentary (little or no exercise)</option>
+                                <option value="light" selected="selected">Light (exercise 1-3 times a week)</option>
+                                <option value="moderate">Moderate (exercise 3-5 times a week)</option>
+                                <option value="high">High (heavy exercise 6-7 times a week)</option>
+                                <option value="extreme">Extreme (very heavy exercise or physical job)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-grid gap-2 form-item">
+                        <button class="btn btn-primary" type="button">Calculate</button>
+                    </div>
+                </div>
 
-    </div>
-    </main> 
+            </div>
+    </main>
 </body>
 
 </html>
