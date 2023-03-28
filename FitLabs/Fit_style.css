@@ -13,7 +13,9 @@ header.masthead {
   background-position: center;
   background-size: cover;
 }
-
+.row{
+  padding: 40px;
+}
 .navbar {
   height: 10vh;
 }
