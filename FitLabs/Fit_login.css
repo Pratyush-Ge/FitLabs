@@ -18,6 +18,7 @@ body{
     left: 50%;
     width: 400px;
     padding: 40px;
+    margin-top: 30px;
     transform: translate(-50%, -50%);
     background: #242026;
     box-shadow: 0 15px 25px rgba(143,124,236,0.7);
@@ -103,3 +104,10 @@ body{
     color: #8F7CEC;
     text-decoration : none;
 }
+
+.navbar-nav>li {
+    padding-left: 62px;
+    padding-right: 62px;
+}
+
+  
