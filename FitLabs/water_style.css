@@ -1,12 +1,12 @@
-nav .navbar {
-    height: 10vh;
+.navbar-nav>li {
+    padding-left: 62px;
+    padding-right: 62px;
 }
+
 *{
     box-sizing: border-box;
 }
-.nav-link {
-    margin: 10px 50px;
-}
+
 main{
     display: flex;
     width: 100vw;
